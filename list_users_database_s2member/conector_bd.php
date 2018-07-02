@@ -5,9 +5,9 @@
 
 class Cconexion{
 	private static $host="localhost";
-	private static $usuario="root";
+	private static $usuario="usser";
 	private static $password="";
-	private static $db="aerco_vir";
+	private static $db="database_name";
 	public  $conexion;
 
 
@@ -42,7 +42,7 @@ class Cconexion{
  				return $result;
  				
  			}
- 			// print_r($sql);
+ 			
  			$conec->conexion->close();
  			return $result;
  	}
